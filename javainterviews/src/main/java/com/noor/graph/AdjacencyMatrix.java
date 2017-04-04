@@ -1,4 +1,4 @@
-package com.noor;
+package com.noor.graph;
 
 import java.util.ArrayList;
 import java.util.Collections;

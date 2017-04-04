@@ -1,13 +1,13 @@
-package com.noor;
+package com.noor.graph;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.noor.Graph.GraphType;
+import com.noor.graph.Graph.GraphType;
 
-public class GraphTester {
+public class App {
 
 	private static Graph graph = new AdjacencyMatrix(6, GraphType.DIRECTED);
 	private static List<Integer> suggestedFriends = new ArrayList<>();
