@@ -1,6 +1,6 @@
 package com.noor.linkedlist;
 
-public class Node {
+public class Node  {
 
 	private int data;
 	private Node next;
@@ -27,6 +27,8 @@ public class Node {
 	public String toString() {
 		return "Node [data=" + data + "]";
 	}
+
+	
 	
 	
 }

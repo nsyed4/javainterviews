@@ -7,7 +7,7 @@ public class MergeSort {
 	}
 	
 	public static void sort(int inputArray[], int start, int end){
-		if(end <= start){
+		if(start >= end){
 			return; // we're done traversing the array
 		}
 		
