@@ -3,12 +3,14 @@ package com.noor.lambdaexpressions;
 public class Person {
 
 	private int age;
-	private String name;
+	private String firstName;
+	private String lastName;
 
-	public Person(int age, String name) {
+	public Person(int age, String firstName, String lastName) {
 		super();
 		this.age = age;
-		this.name = name;
+		this.firstName = firstName;
+		this.lastName = lastName;
 	}
 
 	public int getAge() {
@@ -20,11 +22,27 @@ public class Person {
 	}
 
 	public String getName() {
-		return name;
+		return firstName;
 	}
 
 	public void setName(String name) {
-		this.name = name;
+		this.firstName = name;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 
 }

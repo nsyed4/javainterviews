@@ -6,7 +6,7 @@ public class BinarySearch {
 
 		int startIdx = 0;
 		int endIdx = sortedArray.length - 1;
-		int midIdx = startIdx + endIdx / 2;
+		int midIdx = (startIdx + endIdx) / 2;
 
 		while (startIdx <= endIdx) {
 			midIdx = (startIdx + endIdx) / 2;

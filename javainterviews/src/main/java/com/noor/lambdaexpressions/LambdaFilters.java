@@ -9,9 +9,9 @@ public class LambdaFilters {
 	public static void main(String args[]) {
 
 		List<Person> persons = new ArrayList<Person>();
-		persons.add(new Person(18, "p1"));
-		persons.add(new Person(72, "p2"));
-		persons.add(new Person(36, "p3"));
+		persons.add(new Person(18, "p1", null));
+		persons.add(new Person(72, "p2", null));
+		persons.add(new Person(36, "p3", null));
 
 		// Predicate
 		persons.forEach(p -> System.out.println(p.getAge()));

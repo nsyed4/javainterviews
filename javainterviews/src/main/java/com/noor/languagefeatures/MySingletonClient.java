@@ -13,6 +13,11 @@ public class MySingletonClient {
 		MySingletonApproach2 mySingleton2;
 		mySingleton2 = MySingletonApproach2.getInstance();
 		mySingleton2.execute();
+		
+		
+		MySingletonApproach3 mySingleton3;
+		mySingleton3 = MySingletonApproach3.getInstance();
+		mySingleton3.execute();
 	}
 
 }

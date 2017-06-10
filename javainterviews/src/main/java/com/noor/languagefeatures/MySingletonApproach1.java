@@ -11,7 +11,7 @@ public final class MySingletonApproach1 {
 	}
 
 	public static MySingletonApproach1 getInstance() {
-
+		//What if two threads read myInstance == null at the same time?
 		if (myInstance == null) {
 			synchronized (MySingletonApproach1.class) {
 				myInstance = new MySingletonApproach1();

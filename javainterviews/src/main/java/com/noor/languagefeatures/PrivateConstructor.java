@@ -14,13 +14,14 @@ public class PrivateConstructor {
 		
 	}
 
-	public void execute() {
+	private void execute() {
 		System.out.println("Inside execute");
 	}
 
 	class PCInnerClass {
 
 		public void execute() {
+			//Inner classes are able to access the private methods and constructors of the outer classes.
 			PrivateConstructor pv = new PrivateConstructor();
 			pv.execute();
 		}
